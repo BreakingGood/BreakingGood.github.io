@@ -1,0 +1,135 @@
+/***************************************
+          Media Queries
+***************************************/
+
+/************************************************************
+              Tablet - Landscape
+************************************************************/
+@media screen and (max-width: 1025px)
+              and (min-height: 721px){
+
+}
+
+/************************************************************
+              Tablet - Portrait
+************************************************************/
+@media screen and (max-width: 957px) /*768*/
+  {
+
+
+  #desktopNav{
+    display: none;
+  }
+
+/*Adjust the title bar, center the text and remove the margin.*/
+  .lineTitleBlack, .lineTitleBlackProjects{
+    margin: 0px;
+    text-align: center;
+  }
+
+  .lineTitleBlackContact{
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  #mobileReturn{
+    display: flex;
+  }
+
+  .largeViewLanguages, .largeViewLinks, .largeViewLibraries, .largeViewFooter,
+  .largeViewPhilosophy, .largeViewCommentary{
+    margin: 5px;
+  }
+}
+
+/************************************************************
+    Widescreen/Low Height Monitor improvements
+************************************************************/
+
+@media screen and (max-height: 720px){
+
+  /*Collapse the space between the title bar and leftColumn buttons
+  as well as reduce the space internally between the leftColumn buttons. */
+
+  .lineTitleBlack{
+    margin-bottom: 1vh;
+  }
+
+}
+
+/************************************************************
+              Mobile Phone - Portrait
+************************************************************/
+
+@media screen and (max-height: 736px)
+              and (max-width: 414px){
+
+
+  /*Projects Page */
+
+  .projectBox{
+    margin: 5px 0 5px 0;
+    min-width: 250px;
+  }
+
+  .projectInfo{
+    justify-content: center;
+    max-width: 50%;
+  }
+
+  .largeViewLanguages, .largeViewLinks, .largeViewLibraries, .largeViewFooter,
+  .largeViewPhilosophy, .largeViewCommentary{
+    margin: 5px 0 5px 0;
+  }
+
+  /*About page*/
+
+  .interests{
+    width: 100%;
+    border: 2px 0 solid black;
+  }
+
+  .interestsParagraph{
+    padding: 40px 4% 20px 4%;
+  }
+
+  #aboutNavList{
+    margin: none;
+    margin-top: 10px;
+  }
+
+  .lineTitleBlackContact{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+}
+
+/************************************************************
+              Mobile Phone - Landscape
+************************************************************/
+
+@media screen and (max-height: 436px)
+              and (max-width: 774px)
+              and (min-width: 414px)
+                {
+
+/*Reduce the title bar and text size*/
+  .lineTitle{
+    padding: 8px;
+    font-size: 2em;
+  }
+
+  #lineTitleSubtext{
+    font-size: 1rem;
+  }
+
+  .line{
+    font-size: 4vh;
+    padding: 1.8vh;
+  }
+
+/*Make the large view look a little better when in phone landscape mode */
+  .largeViewLibraries{
+    margin-top: 10px;
+  }
