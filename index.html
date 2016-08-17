@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Portfolio - About</title>
+    <title>Portfolio - Contact</title>
   </head>
-  <body>
+  <body id="homeBody">
 
-    <header class="lineTitleBlack lineTitleBlackAbout">
+    <header class="lineTitleBlack lineTitleBlackHome">
       <div class="lineTitleGrey">
         <div class="lineTitle"><a href="index.html" id="homepageLink">Sam Wolfe <br><p id="lineTitleSubtext"> Software Developer</a></p>
           <nav id = "desktopNav">
             <ul>
-              <li><a href="index.html">About Me</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
               <li><a href="projects.html">Projects</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -25,80 +26,42 @@
       </div>
     </header>
 
-    <div id="aboutImageDiv">
-      <div id="aboutHeading">
-        <img src="img/placeholder1.jpg" alt="Image of me" id="aboutImage">
-        <div id="aboutNavList">
-          <ul>
-            <a href="projects.html">
-              <div>
-                <li class="redBackground">Projects</li>
-              </div>
-            </a>
-            <a href="contact.html">
-              <div>
-                <li class="topBorder greyBackground">Contact</li>
-              </div>
-            </a>
-          </ul>
+    <div id="homepageHeadingContainer">
+      <div class="homeDescription">
+        <p>My name is Sam Wolfe.</p>
+        <p>I am a student at The Ohio State University
+        and am currently working towards a degree in
+        Computer Science and Engineering.</p>
+      </div>
+      <img src="img/osu.png" alt="OSU logo"></img>
+      <div class="homeDescription">
+        <p>This is a portfolio of the projects I have done
+           as well as some basic information about myself.</p>
+        <p>My contact information can be found on the Contact
+         page. Hope you enjoy!</p>
+      </div>
+    </div>
+
+    <div id="homepageButtonContainer">
+      <a href="projects.html">
+        <div class="homeButton">
+          <p>Projects</p>
+          <p class="homeButtonSubtext">-Personal and academic projects-</p>
         </div>
-      </div>
+      </a>
+      <a href="index.html">
+        <div class="homeButton">
+          <p>About Me</p>
+          <p class="homeButtonSubtext">-Education info and a quick bio-</p>
+        </div>
+      </a>
+      <a href="contact.html">
+        <div class="homeButton">
+          <p>Contact</p>
+          <p class="homeButtonSubtext">-Email, Twitter, Linkedin, Phone-</p>
+        </div>
+      </a>
     </div>
-
-    <div id="aboutContent">
-      <div class="interests intTop">
-        <p class="bioParagraph">Quick Bio</p>
-        <ul class="bioList">
-          <li>Born in X</li>
-          <li>Went to High School</li>
-          <li>Went to High School</li>
-          <li>Went to High School</li>
-          <li>Programming since 10</li>
-        </ul>
-        <ul class="bioList">
-          <li>Like Pi</li>
-          <li>Programming since 10</li>
-          <li>Went to High School</li>
-          <li>Went to High School</li>
-        </ul>
-      </div>
-
-      <div class="interests">
-        <p class="bioParagraph">Education</p>
-        <p class="interestsParagraph">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Nunc aliquam pretium justo, a euismod enim pellentesque
-           vitae. Donec dictum erat eget odio accumsan, ac maximus
-           mi mattis. Aliquam erat volutpat. Aenean in pharetra risus.
-           Quisque vel congue elit, ac ornare ante. Pellentesque placerat
-           lobortis scelerisque. Sed sagittis congue sem non tristique
-         </p>
-      </div>
-
-      <div class="interests">
-        <p class="bioParagraph">Academic Interests</p>
-        <p class="interestsParagraph">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Nunc aliquam pretium justo, a euismod enim pellentesque
-           vitae. Donec dictum erat eget odio accumsan, ac maximus
-           mi mattis. Aliquam erat volutpat. Aenean in pharetra risus.
-           Quisque vel congue elit, ac ornare ante. Pellentesque placerat
-           lobortis scelerisque. Sed sagittis congue sem non tristique
-         </p>
-      </div>
-      <div class="interests">
-        <p class="bioParagraph">Personal Interests</p>
-        <p class="interestsParagraph">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Nunc aliquam pretium justo, a euismod enim pellentesque
-           vitae. Donec dictum erat eget odio accumsan, ac maximus
-           mi mattis. Aliquam erat volutpat. Aenean in pharetra risus.
-           Quisque vel congue elit, ac ornare ante. Pellentesque placerat
-           lobortis scelerisque. Sed sagittis congue sem non tristique
-         </p>
-      </div>
-    </div>
-
 
   </body>
 </html>

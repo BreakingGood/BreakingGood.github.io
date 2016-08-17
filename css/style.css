@@ -72,7 +72,7 @@ a:checked{
   font-size: .9rem;
   color: #fff;
   line-height: 20px;
-  margin-top: -30px;
+  margin-top: -40px;
   margin-right: 8%;
 }
 
@@ -526,21 +526,30 @@ by removing the bottom grey line.*/
   padding: 12% 0;
 }
 
+.redBackground{
+  background-color: #cc0000;
+}
+
 .redBackground:hover{
   background-color: #ee0000;
 }
 
 .greyBackground:hover{
-  background-color: #999;
+  background-color: #777;
+}
+
+.lightGreyBackground{
+  background-color: #bbb;
+}
+
+.lightGreyBackground:hover{
+  background-color: #ccc;
 }
 
 .topBorder{
   border-top: 2px solid black;
 }
 
-.redBackground{
-  background-color: #cc0000;
-}
 
 /*Styling for the image*/
 #aboutImage{
@@ -640,15 +649,111 @@ by removing the bottom grey line.*/
 }
 
 .contactInfo{
-  font-size: 1.2em;
+
   text-align: center;
   padding: 40px;
 }
 
 #contactInfoContainer{
-  background: linear-gradient(#fff,#fff 50%,#aaa) fixed;
+  background: linear-gradient(#666 30%, #fff) fixed;
   color: black;
   text-shadow: none;
-  /*background-color: #666;*/
-  margin: 100px 0 0 0;
+}
+
+/*The follow code is used only for the sticky footer*/
+html,body{
+  height: 100%;
+}
+
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -150px
+}
+
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+
+#contactInfoContainer, .page-wrap:after{
+  height: 150px;
+}
+
+
+/*********************************
+
+      HOME PAGE STYLING
+
+  ********************************/
+
+/*White background looks better on this particular page*/
+#homeBody{
+  background: none;
+}
+
+/*Margin between the top bar and the content*/
+.lineTitleBlackHome{
+  margin-bottom: 10px;
+}
+
+/*Contains the two info boxes and the OSU logo*/
+#homepageHeadingContainer{
+  background-color: #666;
+  border-top: 2px solid black;
+  font-size: 1.4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*The following are all for the info boxes*/
+.homeDescription{
+  text-align: center;
+  background-color: #777;
+  width: 30%;
+  padding: 20px 30px;
+  border: 2px groove #aaa;
+  min-width: 250px;
+}
+
+.homeDescription p{
+  padding-bottom: 30px;
+}
+
+
+
+/*Container for the navigation buttons*/
+#homepageButtonContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(#666 30%, #fff);
+}
+
+/*Styling for the buttons*/
+.homeButton{
+  background-color: #bb0000;
+  border: 5px solid black;
+  font-size: 2em;
+  margin-top: 25px;
+  width: 30%;
+  min-width: 350px;
+  padding: 7vh 0;
+  text-align: center;
+}
+
+#homepageButtonContainer a{
+  text-decoration: none;
+}
+
+/*Hover styling for the buttons*/
+.homeButton:hover{
+  background-color: #ee0000;
+}
+
+.homeButtonSubtext{
+  margin-top: 20px;
+  font-size: .5em;
 }
