@@ -34,7 +34,16 @@
 
   #mobileReturn{
     display: flex;
+    margin-bottom: 0px;
+  }
+
+  #mobileReturnContact{
+    display: flex;
     margin-bottom: 20px;
+  }
+
+  .bottomMargin{
+    margin-bottom: 10px;
   }
 
   .largeViewLanguages, .largeViewLinks, .largeViewLibraries, .largeViewFooter,
@@ -114,10 +123,6 @@
   .lineTitleBlackContact{
     margin-bottom: 0px;
     text-align: center;
-  }
-
-  #mobileReturn{
-    margin-bottom: 10px;
   }
 
   #homepageHeadingContainer img{

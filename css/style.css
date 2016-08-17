@@ -103,7 +103,7 @@ by removing the bottom grey line.*/
   padding-top: 5px
 }
 
-.lineTitleGreyProjects{
+.lineTitleGreyProjects, .lineTitleGreyContact{
   padding-top: 5px;
   background-color: #666;
 }
@@ -482,6 +482,21 @@ by removing the bottom grey line.*/
 }
 
 #mobileReturn a{
+  margin-top: 5px;
+}
+
+#mobileReturnContact{
+  display: none;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+  text-shadow: none;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: .9em;
+}
+
+#mobileReturnContact a{
   margin-top: 5px;
 }
 
