@@ -516,7 +516,7 @@ by removing the bottom grey line.*/
 #aboutNavList{
   margin-left: 3%;
   width: 180px;
-  background-color: #666;
+  background: linear-gradient(180deg, #cc0000 30%, #666, #666);
   list-style: none;
   text-align: center;
   border: 3px solid black;
@@ -539,11 +539,11 @@ by removing the bottom grey line.*/
 }
 
 .lightGreyBackground{
-  background-color: #bbb;
+  background-color: #666;
 }
 
 .lightGreyBackground:hover{
-  background-color: #ccc;
+  background-color: #777;
 }
 
 .topBorder{
