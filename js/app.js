@@ -23,14 +23,9 @@ function filter(langClass){
 };
 
 /*Each button's filter function calls*/
-$("#buttonAssembly").click(function(){
-  filter("assembly")
-});
-
 $("#buttonWebDev").click(function(){
   filter("webDev")
 });
-
 
 $("#buttonJava").click(function(){
   filter("java")
@@ -38,10 +33,6 @@ $("#buttonJava").click(function(){
 
 $("#buttonCPlus").click(function(){
   filter("cPlus")
-});
-
-$("#buttonOther").click(function(){
-  filter("other")
 });
 
 $("#buttonAll").click(function(){

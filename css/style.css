@@ -200,6 +200,11 @@ by removing the bottom grey line.*/
   margin-bottom: 20px;
 }
 
+
+.projectTitleBig{
+  font-size: 1.2em;
+}
+
 /*Projects links and description*/
 .projectInfo{
   display: flex;
@@ -209,7 +214,7 @@ by removing the bottom grey line.*/
 }
 
 .sourceLabel{
-  margin-top: 5px;
+  margin-top: 30px;
   padding: 10px 0 10px 0;
   background-color: #cc0000;
   color: white;
@@ -223,6 +228,14 @@ by removing the bottom grey line.*/
   color: white;
   border: 2px solid black;
   border-bottom-width: 0;
+}
+
+.sourceLarge{
+  border: 2px solid black; 
+  border-bottom-width: 0;
+}
+.directLarge{
+  border: 2px solid black;
 }
 
 .descriptionLabel{
@@ -244,6 +257,7 @@ by removing the bottom grey line.*/
   background-color: #999;
   padding: 8px 5px 15px 5px;
   border: 2px groove #aaa;
+  min-height: 170px;
 }
 .projectLanguages p{
   font-size: 1.2rem;
@@ -262,7 +276,6 @@ by removing the bottom grey line.*/
 
 .projectClickHere{
   margin-top: 20px;
-  margin-bottom: -5px;
   background-color: #333;
   color:white;
   width: 100%;
@@ -270,6 +283,7 @@ by removing the bottom grey line.*/
   padding: 4px 0 4px 0;
   font-size: .8rem;
   min-height: 20px;
+  max-height: 20px;
 }
 
 .projectClickHere:hover{
@@ -320,7 +334,9 @@ by removing the bottom grey line.*/
   max-width: 20%;
   text-align: center;
   margin-right: 5%;
+  margin-left: 5%;
   min-width: 200px;
+  min-height: 200px;
 }
 
 .redTitle{
@@ -342,6 +358,11 @@ by removing the bottom grey line.*/
   border-bottom-color: black;
   border-bottom-style: solid;
   padding: 5px 0 12px 0;;
+  
+}
+
+.singleLanguage{
+min-height: 250px;
 }
 
 /*Styling for the source code and direct link list*/
@@ -363,6 +384,7 @@ by removing the bottom grey line.*/
   max-width: 20%;
   text-align: center;
   margin-left: 5%;
+  margin-right: 5%;
   min-width: 200px;
 }
 
@@ -390,6 +412,10 @@ by removing the bottom grey line.*/
   padding-bottom: 5px;
 }
 
+.noBottomBorder{
+  border-bottom-width: 0;
+}
+
 .libraryLink{
   border-bottom: 2px solid black;
 }
@@ -400,25 +426,17 @@ by removing the bottom grey line.*/
   font-size: .9rem;
 }
 
-/*Styling for the Commentary and Philosophy sections */
-.largeViewFooter{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  margin: 30px 0 30px 0;
-}
-
 /*Styling for Philosophy section */
 .largeViewPhilosophy{
   background-color: #aaa;
   width: 25%;
-  margin-right: 2%;
+  margin-left: 5%;
   border: 2px solid black;
   min-width: 250px;
 }
 
 .redTitleNoBorder{
+  text-align: center;
   font-size: 1.2rem;
   padding: 10px 0 10px 0;
   background-color: #cc0000;
@@ -588,6 +606,11 @@ by removing the bottom grey line.*/
   width: 100%;
   text-align: center;
   margin-top: 15px;
+  color: black;
+  text-shadow: none;
+  font-size: 1.2em;
+  border: 0px dashed black;
+  border-bottom-width: 1px;
 }
 
 /*Styling for all boxes*/
@@ -612,17 +635,22 @@ by removing the bottom grey line.*/
 .bioList{
   display: block;
   list-style: circle;
-  margin: 0 10%;
+  margin: 0 2%;
   padding-bottom: 20px;
 }
 
 .bioList li{
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /*Styling for the prargraphs in the last boxes*/
 .interestsParagraph{
   padding: 40px 10% 20px 10%;
+  text-align: center;
+}
+
+.experience{
+  padding: 10px 10% 10px 10%;
   text-align: center;
 }
 
