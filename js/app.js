@@ -76,7 +76,7 @@ $("body").click(function(event){
         projectLargeViews[i].style.display='flex';
       }
   }
-  window.scrollTo(0, 0);  
+  window.scrollTo(0, 200);  
 });
 
 //Close all large views when button is clicked

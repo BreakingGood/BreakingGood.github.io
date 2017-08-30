@@ -551,7 +551,8 @@ min-height: 250px;
 
 /*Styling for nav list*/
 #aboutNavList{
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 180px;
   background: linear-gradient(180deg, #cc0000 30%, #666, #666);
   list-style: none;
@@ -610,8 +611,7 @@ min-height: 250px;
   width: 100%;
   text-align: center;
   margin-top: 15px;
-  color: black;
-  text-shadow: none;
+  color: white;
   font-size: 1.2em;
   border: 0px dashed black;
   border-bottom-width: 1px;
@@ -658,6 +658,17 @@ min-height: 250px;
   text-align: center;
 }
 
+.experienceList{
+  text-align:center;
+}
+.experienceList li{
+  padding: 5px 0 0 0;
+}
+
+.bigWords{
+  font-size: 1.1em;
+}
+
 /********************************************
 
             BEGIN CONTACT PAGE
@@ -666,8 +677,8 @@ min-height: 250px;
 
 /*Styling for the images*/
 .contactImage{
-  width: 200px;
-  padding: 0 20px 20px 20px;
+  width: 120px;
+  padding: 20px 20px 20px 20px;
   border-bottom: 2px solid black;
 }
 
@@ -690,9 +701,7 @@ min-height: 250px;
 .contactDescription{
   text-align: center;
   padding: 20px 0;
-  text-shadow: none;
-  font-size: 1.5em;
-  color: black;
+  font-size: 1em;
 }
 
 .contactInfo{
@@ -790,6 +799,12 @@ html,body{
   padding: 7vh 0;
   text-align: center;
   box-shadow: 10px 10px 5px black;
+}
+
+.homeButtonProjects{
+  width: 50%;
+  min-width: 400px;
+  padding: 9vh 0;
 }
 
 #homepageButtonContainer a{
