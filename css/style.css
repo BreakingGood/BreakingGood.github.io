@@ -205,6 +205,10 @@ by removing the bottom grey line.*/
   font-size: 1.2em;
 }
 
+.bigName{
+  font-size: .9em;
+}
+
 /*Projects links and description*/
 .projectInfo{
   display: flex;
