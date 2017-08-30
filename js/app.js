@@ -11,6 +11,10 @@ var projectCloseButtons = document.getElementsByClassName('closeView');
 
 var projectLargeViews = document.getElementsByClassName('largeViewContainer');
 
+for(var i = 0; i < projectLargeViews.length; i++){
+  projectLargeViews[i].style.display='none';
+}
+
 /*Hide all the projects without the class specified by the function call*/
 function filter(langClass){
   for(var i = 0; i < projects.length; i++){
@@ -42,6 +46,10 @@ $("#buttonPython").click(function(){
   filter("python")
 });
 
+$("#buttonArduino").click(function(){
+  filter("arduino")
+});
+
 $("#buttonAll").click(function(){
   showAllProjects();
 });
@@ -65,10 +73,6 @@ function showAllProjects(){
 
 //Open the corresponding large view when button is clicked
 $("body").click(function(event){
-  //Close any -already opened- large views
-  for(var i = 0; i < projectLargeViews.length; i++){
-    projectLargeViews[i].style.display='none';
-  }
   //Open the corresponding large view
   var buttonID = event.target.id;
   for(var i = 0; i < projects.length; i++){
@@ -76,7 +80,7 @@ $("body").click(function(event){
         projectLargeViews[i].style.display='flex';
       }
   }
-  window.scrollTo(0, 200);  
+  window.scrollTo(0, 0);  
 });
 
 //Close all large views when button is clicked
