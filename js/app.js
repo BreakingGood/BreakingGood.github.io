@@ -73,6 +73,9 @@ function showAllProjects(){
 
 //Open the corresponding large view when button is clicked
 $("body").click(function(event){
+  for(var i = 0; i < projectLargeViews.length; i++){
+    projectLargeViews[i].style.display='none';
+  }
   //Open the corresponding large view
   var buttonID = event.target.id;
   for(var i = 0; i < projects.length; i++){
