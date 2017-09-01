@@ -1,3 +1,259 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portfolio - Projects</title>
+  </head>
+  <body id="projectsBody">
+
+    <header class="lineTitleBlackProjects">
+      <div class="lineTitleGreyProjects">
+        <div class="lineTitle"><a href="index.html" id="homepageLink">Sam Wolfe <br><p id="lineTitleSubtext"> Computer Science</a></p>
+          <nav id = "desktopNav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div id="mobileReturn">
+      <a href="index.html">Home</a></li>
+      <a href="about.html">About Me</a></li>
+      <a href="contact.html">Contact</a></li>
+    </div>
+
+
+    <div id="langNavBox">
+      <ul id="langNav">
+        <li><div id="projectsLabel">Projects</div></li>
+        <li><span id="buttonAll" class="langNavButton">Show All</span></li>
+        <li><span id="buttonWebDev" class="langNavButton">Web Dev</span></li>
+        <li><span id="buttonJava" class="langNavButton">Java</span></li>
+        <li><span id="buttonCPlus" class="langNavButton">C++</span></li>
+        <li><div id="buttonReturn">Return To Projects</div></li>
+      </ul>
+    </div>
+
+
+<!--***************************************************************
+
+                              PROJECTS
+
+******************************************************************!-->
+
+    <div id="projectsContainer">
+      <!--PROJECT ONE - PROJECT ONE - PROJECT ONE - PROJECT ONE
+
+        Projects always contain the class of the language they use
+        in order to allow for filtering-->
+      <div id="projectOne" class="projectBox webDev">
+        <!-- The beauty class allows for a pleasant custom underline beneath the project title !-->
+        <div class="beauty"></div>
+        <div class="projectTitle">Portfolio Website</div>
+        <div class="beauty"></div>
+        <div class="projectLanguages">
+          <p>Tools Used</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+          </ul>
+        </div>
+        <div class="projectInfo">
+          <span class="sourceLabel"><a href="https://github.com/BreakingGood/BreakingGood.github.io" target="_blank">Source Code (GitHub)</a></span>
+          <span class="directLabel"><a href="https://github.com/BreakingGood/BreakingGood.github.io/archive/master.zip" target="_blank">Download</a></span>
+          <span class="descriptionLabel">A lightweight, modern portfolio website with full mobile and tablet support. (This website)</span>
+        </div>
+      <div id="projectOneClick" class="projectClickHere openView">Click Here to View More</div>
+      </div>
+
+
+      <!-- PROJECT TWO - PROJECT TWO - PROJECT TWO - PROJECT TWO - !-->
+      <div id="projectTwo" class="projectBox cPlus">
+        <div class="beauty"></div>
+        <div class="projectTitle projectTitleBig">Multiplayer Tic-Tac-Toe</div>
+        <div class="beauty"></div>
+        <div class="projectLanguages">
+          <p>Tools Used</p>
+          <ul>
+            <li>C++</li>
+            <li>SFML</li>
+            <li>Boost</li>
+          </ul>
+        </div>
+        <div class="projectInfo">
+          <span class="sourceLabel"><a href="https://github.com/BreakingGood/Multiplayer_TicTacToe" target="_blank">Source Code (GitHub)</a></span>
+          <span class="directLabel"><a href="https://github.com/BreakingGood/Multiplayer_TicTacToe/archive/master.zip" target="_blank">Download</a></span>
+          <span class="descriptionLabel">A multi-threaded, fully networked multiplayer Tic-Tac-Toe client.</span>
+        </div>
+      <div id="projectTwoClick" class="projectClickHere openView">Click Here to View More</div>
+      </div>
+
+
+      <!-- PROJECT THREE - PROJECT THREE - PROJECT THREE - PROJECT THREE  !-->
+      <div id="projectThree" class="projectBox java">
+        <div class="beauty"></div>
+        <div class="projectTitle">Project Three</div>
+        <div class="beauty"></div>
+        <div class="projectLanguages">
+          <p>Tools Used</p>
+          <ul>
+            <li>Java</li>
+            <li>Swing</li>
+          </ul>
+        </div>
+        <div class="projectInfo">
+          <span class="sourceLabel"><a href="http://google.com"target="_blank">Source Code (GitHub)</a></span>
+          <span class="directLabel"><a href="http://google.com"target="_blank">Download</a></span>
+          <span class="descriptionLabel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas lacus sit amet augue hendrerit laoreet.</span>
+        </div>
+      <div id="projectTheeClick" class="projectClickHere openView">Click Here to View More</div>
+      </div>
+      </div>
+    </div> <!--This is the end of the "ProjectContainer"!-->
+
+    <!-- ******************BEGIN PROJECTS "VIEW MORE" SECTIONS************!-->
+
+    <!--LARGE VIEW SECTION 1 - LARGE VIEW SECTION 1 - LARGE VIEW SECTION 1 !-->
+
+    <!--To add a new large view to the list, the id="largeViewOne" needs
+    to be incremented, as well as the "projectOneClose" id at the bottom !-->
+    <div id="largeViewOne" class="largeViewContainer">
+      <div class="largeViewTitle">Portfolio Website</div>
+      <div class="largeViewContent">
+        <!--The lagnauge list in the large view !-->
+        <div class="largeViewLanguages">
+          <div class="redTitle">Languages</div>
+          <div class="largeViewLanguagesContent">
+            <div>
+              <p class="listHeader">HTML</p>
+              <p>Used for the general structure of the document.</p>
+            </div>
+            <div>
+              <p class="listHeader">CSS</p>
+              <p>Used for the design and layout of the document</p>
+            </div>
+            <div>
+              <p class="listHeader">Javascript</p>
+              <p>Used for basic functionality, such as the filtering on the projects page.</p>
+            </div>
+          </div>
+        </div>
+        <!--The libraries column in the large view !-->
+        <span class="largeViewLibraries">
+          <div class="greyTitle">Libraries</div>
+          <div class="largeViewLibrariesContent">
+            <div>
+              <p class="listHeader">JQuery</p>
+              <p>JQuery provides many different functions to base Javascript
+                 that improve programming efficiency.</p>
+            </div>
+            <div class="libraryLink">
+              <a href="http://jquery.com">http://jquery.com</a>
+            </div>
+          </div>
+        </span>
+        <div class="largeViewPhilosophy">
+          <div class="redTitleNoBorder">
+            <p>Project Design Philosophy</p>
+          </div>
+          <div class="largeViewPhilContent">
+            <ol>
+              <li>A fast website with minimal javascript</li>
+              <li>High performance and proper formatting on mobile devices</li>
+              <li>Properly formatted and commented code</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+              <!--The Links in the center of the large view !-->
+        <div class="largeViewLinks">
+          <div class="projectInfoLarge">
+            <span class="sourceLabel sourceLarge"><a href="https://github.com/BreakingGood/BreakingGood.github.io" target="_blank">Source Code (GitHub)</a></span>
+            <span class="directLabel directLarge"><a href="https://github.com/BreakingGood/BreakingGood.github.io/archive/master.zip" target="_blank">Download</a></span>
+          </div>
+        </div>
+      <!--Here is the "projectOneClose" id !-->
+      <div id="projectOneClose" class="projectClickHere closeView">Click Here To Close</div>
+    </div>
+
+    <!--LARGE VIEW SECTION 2 - LARGE VIEW SECTION 2 - LARGE VIEW SECTION 2 !-->
+    <div id="largeViewTwo" class="largeViewContainer">
+      <div class="largeViewTitle">Portfolio Website</div>
+      <div class="largeViewContent">
+        <div class="largeViewLanguages">
+          <div class="redTitle">Languages</div>
+          <div class="largeViewLanguagesContent">
+            <div class="singleLanguage">
+              <p class="listHeader">C++</p>
+              <p>The core programming language used for all features.</p>
+            </div>
+          </div>
+        </div>
+        <!--The libraries column in the large view !-->
+        <span class="largeViewLibraries">
+          <div class="greyTitle">Libraries</div>
+          <div class="largeViewLibrariesContent">
+            <div class="noBottomBorder">
+              <p class="listHeader">SFML</p>
+              <p>Multimedia library used for graphics, input, and networking.</p>
+            </div>
+            <div class="libraryLink">
+              <a href="http://sfml-dev.org">http://sfml-dev.org</a>
+            </div>
+          </div>
+          <div class="largeViewLibrariesContent">
+            <div>
+              <p class="listHeader">Boost</p>
+              <p>A massive C++ library that offers a huge amount of functionality. This project only used the threading library.</p>
+            </div>
+            <div class="libraryLink">
+              <a href="http://boost.org">http://boost.org</a>
+            </div>
+          </div>
+        </span>
+        <div class="largeViewPhilosophy">
+          <div class="redTitleNoBorder">
+            <p>Project Design Philosophy</p>
+          </div>
+          <div class="largeViewPhilContent">
+            <ol>
+              <li>Playable by two players anywhere in the world</li>
+              <li>Support for a fully multi-threaded networking loop</li>
+              <li>Basic anti-cheat system</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+              <!--The Links in the center of the large view !-->
+        <div class="largeViewLinks">
+          <div class="projectInfoLarge">
+            <span class="sourceLabel sourceLarge"><a href="https://github.com/BreakingGood/Multiplayer_TicTacToe" target="_blank">Source Code (GitHub)</a></span>
+            <span class="directLabel directLarge"><a href="https://github.com/BreakingGood/Multiplayer_TicTacToe/archive/master.zip" target="_blank">Download</a></span>
+          </div>
+        </div>
+      <div id="projectTwoClose" class="projectClickHere closeView">Click Here To Close</div>
+    </div>
+
+    <!--*****************************END PROJECTS**********************!-->
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+=======
 <!DOCTYPE html>
 <html>
   <head>
@@ -500,3 +756,4 @@
     <script src="js/app.js"></script>
   </body>
 </html>
+>>>>>>> 346fccdbc99b7a2e24f48d0eaab56deeccc718ea
